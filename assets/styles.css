@@ -98,6 +98,8 @@ nav a {
     /* transition: all .2s ease-in-out; */
 }
 
+/* ********************************************************* */
+
 .about {
     /* border: 1px solid white; */
     display: flex;
@@ -133,4 +135,88 @@ nav a {
 
 .hideme {
     color:rgb(39, 39, 39);
+}
+
+/* ********************************************************* */
+
+.projects {
+    display: flex;
+    padding: 15%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}   
+
+.projects h2 {
+    text-orientation: sideways;
+    writing-mode: vertical-rl;
+    font-size: 4rem;
+    color: rgb(255, 136, 0);
+    font-weight: bold;
+    letter-spacing: 5px;
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    /* text-align: right; */
+}
+
+.cards {
+    /* border: 1px solid red; */
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 38%;
+    margin: 2%;
+    padding: 4%;
+    transition: all .3s ease-in-out;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    letter-spacing: 1px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.links {
+    width: 100%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+.project-link {
+    background-color: rgb(21, 158, 135);
+    /* color: black; */
+    padding: 3% 5%;
+    margin: 1%;
+    border: none;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.19);
+    /* display: block; */
+    font-size: 0.9rem;
+}
+
+.project-link:hover {
+    background-color: rgb(55, 184, 162);
+    
+}
+
+.orange {
+    background-color: rgb(158, 21, 85);
+}
+
+.orange:hover {
+    background-color: rgb(192, 59, 121);
+}
+
+.project-link a {
+    text-decoration: none;
 }
