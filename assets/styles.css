@@ -141,7 +141,7 @@ nav a {
 
 .projects {
     display: flex;
-    padding: 15%;
+    padding: 8% 15%;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }   
@@ -153,13 +153,11 @@ nav a {
     color: rgb(255, 136, 0);
     font-weight: bold;
     letter-spacing: 5px;
-    /* width: 100%; */
-    /* border: 1px solid red; */
-    /* text-align: right; */
+    position: relative;
+    bottom: -20px;
 }
 
 .cards {
-    /* border: 1px solid red; */
     width: 85%;
     display: flex;
     flex-wrap: wrap;
@@ -191,6 +189,7 @@ nav a {
 
 .card h3 {
     text-align: center;
+    text-transform: uppercase;
 }
 
 .project-link {
@@ -219,4 +218,43 @@ nav a {
 
 .project-link a {
     text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.smallme {
+    font-size: 1.1rem;
+    color: rgb(255, 136, 0);
+}
+
+
+/* ************************************ */
+
+.contact {
+    /* border: 1px solid white; */
+    /* display: flex; */
+    padding: 15% 15%;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    /* text-align: center; */
+    /* justify-content: space-evenly; */
+}
+
+.img-wrapper {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.img-wrapper img {
+    width: 105%;
+    position: relative;
+    top: -5px;
+}
+
+.contact-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 70%;
+    margin: 0 auto;
+    padding: 4%;
 }
