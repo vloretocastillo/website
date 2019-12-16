@@ -14,22 +14,15 @@ body {
     background-color: rgb(39, 39, 39);
 }
 
-
-
 header {
-    /* border: 1px solid white; */
     display: flex;
-    /* flex-wrap: wrap; */
     height: 100vh;
 }
 
 .hero {
     width: 90%;
-    /* color: white; */
     display: flex;
     align-items: center;
-    /* justify-content: center; */
-    
 }
 
 h1 {
@@ -50,13 +43,11 @@ h1 span.i{
     text-transform: lowercase;
     font-size: 8rem;
     font-weight: 400;
-    /* font-size: 12rem; */
 }
 
 
 
 nav {
-    /* border: 1px solid white; */
     width: 9%;
     text-orientation: sideways;
     writing-mode: tb-rl;
@@ -67,14 +58,9 @@ nav {
     position: fixed;
     right: 0;
     height: 100%;
-    /* writing-mode: sideways-lr;
-    -webkit-writing-mode: sideways-lr;
-  -ms-writing-mode: sideways-lr; */
-    
 }
 
 nav ul {
-    /* border: 1px solid white; */
     height: 100%;
     display: flex;
 }
@@ -92,42 +78,33 @@ nav li:hover {
 nav a {
     color: white;
     text-decoration: none;
-    /* text-orientation: sideways; */
-    /* writing-mode: sideways-lr; */
     text-transform: uppercase;
-    /* transition: all .2s ease-in-out; */
 }
 
 /* ********************************************************* */
 
 .about {
-    /* border: 1px solid white; */
     display: flex;
     padding: 15%;
     justify-content: space-evenly;
 }
 
 .about h2 {
-    /* border: 1pxs solid white; */
     text-orientation: sideways;
     writing-mode: vertical-rl;
     font-size: 4rem;
     color: rgb(255, 0, 106);
     font-weight: bold;
     letter-spacing: 5px;
-    
-    
 }
 
 .intro {
-    /* border: 1px solid white; */
     padding-left: 2%;
     width: 70%;
 }
 
 .intro p{
     font-size: 1.5rem;
-    /* font-family: 'Josefin Slab', serif; */
     font-family: 'Inconsolata', monospace;
 
     letter-spacing: 1px;
@@ -170,9 +147,6 @@ nav a {
     margin: 2%;
     padding: 4%;
     transition: all .3s ease-in-out;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-evenly; */
     letter-spacing: 1px;
 }
 
@@ -194,12 +168,10 @@ nav a {
 
 .project-link {
     background-color: rgb(21, 158, 135);
-    /* color: black; */
     padding: 3% 5%;
     margin: 1%;
     border: none;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.19);
-    /* display: block; */
     font-size: 0.9rem;
 }
 
@@ -231,30 +203,19 @@ nav a {
 /* ************************************ */
 
 .contact {
-    /* border: 1px solid white; */
-    /* display: flex; */
-    padding: 15% 15%;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-    /* text-align: center; */
-    /* justify-content: space-evenly; */
+    padding: 15% 17%;
+    font-size: 5rem;
+    font-weight: 400;
 }
 
-.img-wrapper {
-    overflow: hidden;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
+.contact a {
+    text-decoration: none;
 }
 
-.img-wrapper img {
-    width: 105%;
-    position: relative;
-    top: -5px;
+.contact span{
+    color: rgb(4, 255, 213);
+    font-size: 6rem;
+    
 }
 
-.contact-card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 70%;
-    margin: 0 auto;
-    padding: 4%;
-}
+    
