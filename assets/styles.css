@@ -322,6 +322,10 @@ nav a {
 
     .title-after {display: none;}
 
+    .projects {
+        border: 1px solid blue;
+    }
+
 
 }
 
