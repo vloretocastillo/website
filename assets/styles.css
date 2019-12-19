@@ -284,7 +284,8 @@ nav a {
         height: initial;
         justify-content: space-evenly;
         padding: 3%;
-        background-color: rgb(39, 39, 39);;
+        background-color: rgb(39, 39, 39);
+        z-index: 500;
     }
     nav li {
         font-size: .94rem;
