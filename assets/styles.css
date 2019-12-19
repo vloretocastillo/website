@@ -261,7 +261,6 @@ nav a {
 
 
     body {
-        /* background-color:pink; */
         padding-bottom: 9%;
     }
 
@@ -295,13 +294,10 @@ nav a {
     }
 
     .card {
-        width: 80%;
-        margin: 7% 0;
+        width: 90%;
+        margin: 9% 0;
         padding: 7%;
-        /* margin: 2%;
-        padding: 4%;
-        transition: all .3s ease-in-out;
-        letter-spacing: 1px; */
+        
     }
 
     .card:first-of-type {
@@ -312,14 +308,7 @@ nav a {
         display: block;
         text-orientation: upright !important;
         writing-mode: horizontal-tb !important;
-        /* margin-bottom: 12%; */
     }
-
-    /* .title-before { 
-        display: block;
-        text-orientation: upright;
-        writing-mode: horizontal-tb;
-    } */
 
     .title-after {display: none;}
 
