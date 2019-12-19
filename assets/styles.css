@@ -293,11 +293,21 @@ nav a {
 
     }
 
+    .cards {
+        /* padding: 0; */
+        /* border: 1px solid red; */
+        width: 100%;
+    }
+
     .card {
-        width: 90%;
+        width: 100%;
         margin: 9% 0;
         padding: 7%;
         
+    }
+
+    .projects {
+        padding: 9%;
     }
 
     .card:first-of-type {
