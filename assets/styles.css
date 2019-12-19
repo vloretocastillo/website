@@ -118,6 +118,9 @@ nav a {
 }
 
 /* ********************************************************* */
+.title-before {
+    display: none;
+}
 
 .projects {
     display: flex;
@@ -263,7 +266,7 @@ nav a {
 
     h1 {
         margin-left: 10%;
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
     h1 span.coma{
         font-size: 8rem;
@@ -279,22 +282,45 @@ nav a {
         position: fixed;
         top: 0;
         height: initial;
-        /* border: 1px solid red; */
         justify-content: space-evenly;
-        /* padding: 0; */
         padding: 3%;
-        /* padding-left: 0; */
         background-color: rgb(39, 39, 39);;
     }
     nav li {
-        /* margin: 2%; */
-        /* border: 1px solid red; */
-        /* width: 45%; */
         font-size: .9rem;
         position: relative;
         left: -11%;
 
     }
+
+    .card {
+        width: 80%;
+        margin: 7% 0;
+        padding: 7%;
+        /* margin: 2%;
+        padding: 4%;
+        transition: all .3s ease-in-out;
+        letter-spacing: 1px; */
+    }
+
+    .card:first-of-type {
+        margin-top: 22%;
+    }
+
+    .title-before { 
+        display: block;
+        text-orientation: upright !important;
+        writing-mode: horizontal-tb !important;
+        /* margin-bottom: 12%; */
+    }
+
+    /* .title-before { 
+        display: block;
+        text-orientation: upright;
+        writing-mode: horizontal-tb;
+    } */
+
+    .title-after {display: none;}
 
 
 }
