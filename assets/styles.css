@@ -292,14 +292,20 @@ nav a {
         top: 0;
         height: initial;
         justify-content: space-evenly;
-        padding: 3%;
+        padding: 7% 1%;
         background-color: rgb(39, 39, 39);
         z-index: 500;
     }
     nav li {
-        font-size: .94rem;
+        font-size: 1rem;
         position: relative;
         left: -11%;
+        /* text-transform: lowercase; */
+    }
+
+    nav li a {
+        font-size: 1.1rem;
+        text-transform: lowercase;
 
     }
 
@@ -366,7 +372,7 @@ nav a {
         background-color: rgb(39, 39, 39);;
     }
     nav li {
-        font-size: .8rem;
+        /* font-size: .8rem; */
         position: relative;
         left: -11%;
 
