@@ -333,7 +333,6 @@ nav a {
     }
 
     h1 {
-        /* margin-left: 10%; */
         font-size: 4rem;
     }
     h1 span.coma{
@@ -373,22 +372,11 @@ nav a {
         
     }
 
-    /* .projects {
-        
-        padding: 9%;
-    } */
-/* 
-    .card:first-of-type {
-        margin-top: 22%;
+    .projects {
+        border: 1px solid blue;
     }
 
-    .title-before { 
-        display: block;
-        text-orientation: upright !important;
-        writing-mode: horizontal-tb !important;
-    }
 
-    .title-after {display: none;} */
 
 
 }
