@@ -262,7 +262,7 @@ nav a {
 
     body {
         /* background-color:pink; */
-        padding-bottom: 8%;
+        padding-bottom: 9%;
     }
 
     h1 {
@@ -288,7 +288,7 @@ nav a {
         background-color: rgb(39, 39, 39);;
     }
     nav li {
-        font-size: .9rem;
+        font-size: .95rem;
         position: relative;
         left: -11%;
 
