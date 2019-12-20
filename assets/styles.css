@@ -368,6 +368,10 @@ nav a {
         /* color: blue; */
     }
 
+    nav li:hover {
+        transform: none;
+    }
+
 
 }
 
@@ -379,13 +383,13 @@ nav a {
     }
 
     h1 {
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     h1 span.coma{
-        font-size: 7rem;
+        font-size: 6rem;
     }
     h1 span.i{
-        font-size: 5rem;
+        font-size: 4.5rem;
     }
     nav {
         width: 100%;
