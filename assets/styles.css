@@ -294,7 +294,7 @@ nav a {
     }
 
     h1 {
-        margin-left: 10%;
+        margin-left: 15%;
         font-size: 4.5rem;
     }
     h1 span.coma{
@@ -383,13 +383,15 @@ nav a {
     }
 
     h1 {
+        margin-left: 15%;
         font-size: 3.5rem;
     }
     h1 span.coma{
+        
         font-size: 6rem;
     }
     h1 span.i{
-        font-size: 4.5rem;
+        font-size: 4.4rem;
     }
     nav {
         width: 100%;
