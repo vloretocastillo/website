@@ -158,6 +158,11 @@ nav a {
     padding: 4%;
     transition: all .3s ease-in-out;
     letter-spacing: 1px;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+
+
 }
 
 .card:hover {
@@ -166,15 +171,21 @@ nav a {
 
 .links {
     width: 100%;
-    margin-top: 7%;
+    /* margin-top: 7%; */
     display: flex;
     justify-content: space-evenly;
+    /* border: 1px solid pink; */
+    margin-top: auto;
+
+    /* position: absolute;
+    bottom: 0; */
 }
 
 .card h3 {
     text-align: center;
     text-transform: uppercase;
     font-family: 'Inconsolata', monospace;
+    margin-bottom: 7%;
 }
 
 .project-link {
